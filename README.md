@@ -32,7 +32,7 @@ To compile the program:
 2. gcc contextSwitchCosts.c -> ./a.out
 
 ### Example results
-
+```
 The cost of a minimal function call(ms): 196
 The cost of a minimal system call(ms): 282
 The cost of a process switching(ms): 9638
@@ -45,7 +45,7 @@ SystemCallCosts ={1243;190;184;172;174;174;168;174;169;173}
 processCallCosts ={17252;10225;9776;8314;8005;7960;8072;8163;8964;9655}
 
 ThreadCallCosts ={97344;28300;23978;24824;23683;23932;23416;23665;23855;24379}
-
+```
 
 ## References 
 pipe.c
